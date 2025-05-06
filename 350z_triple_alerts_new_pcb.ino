@@ -6,7 +6,7 @@
 #include <esp_wifi.h>
 #include <Preferences.h>
 
-#include "UltimateGaugeGlobal.h"
+#include "UltimateGauge.h"
 
 // Intialise memory
 Preferences prefs;
