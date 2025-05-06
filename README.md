@@ -1,5 +1,5 @@
-"# ST7701-ESP32-Driver-for-LVGL8.4" 
-"# ST7701-ESP32-Driver-for-LVGL9.2" 
-"# water-temp-minimal" 
-"# water-temp-minimal" 
-"# ultimate-gauge-base" 
+Arduino IDE base setup for the Ultimate Gauge PCB designed by Garage Tinkering
+
+Includes I2C, display drivers, CAN, and LVGL setup.
+
+Requires https://github.com/garagetinkering/ultimate-gauge-global placed in Arduino libraries
