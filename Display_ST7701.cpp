@@ -409,8 +409,7 @@ void Set_Backlight(uint8_t light) {
   }
 
   uint32_t backlight = light * 10;
-  if (backlight == 1000) backlight = 1024;
-
+  //printf("backlight %d\n", backlight);
   ledcWrite(LCD_BACKLIGHT_PIN, backlight);
 }
 
